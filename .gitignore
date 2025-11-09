@@ -1,0 +1,95 @@
+# Build directories
+build/
+bin/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Dependency files
+*.d
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.cmake
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Test files
+test_*
+*_test.*
+
+# Editor backup files
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+
+# Python (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Valgrind reports
+*.valgrind
+
+# Profiling data
+*.prof
+*.profile
